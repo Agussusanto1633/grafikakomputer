@@ -190,19 +190,36 @@ python "Modul B.py"
 
 ## Screenshot dan Fitur Visual
 
-### Highlight Modul A
-- 🎨 **Preview Warna Real-time**: Indikator warna aktif di UI
-- 🎯 **Feedback Pemilihan**: Objek yang dipilih ditandai dengan warna kuning
-- 🪟 **Clipping Interaktif**: Window merah yang dapat diseret dengan feedback visual
-- 🔄 **Transformasi Halus**: Kontrol berkelanjutan dengan menahan tombol
-- ✨ **UI Profesional**: Interface bersih dengan indikator yang membantu
+### Modul A - Grafika 2D dengan Clipping
+![Modul A - Objek 2D Tanpa Window](https://i.imgur.com/demo1.png)
+*Tampilan awal dengan berbagai objek 2D: titik putih, garis, persegi, dan ellipse*
 
-### Highlight Modul B
-- 💡 **Pencahayaan Dinamis**: Sumber cahaya bergerak menciptakan efek dramatis
+![Modul A - Clipping Window Aktif](https://i.imgur.com/demo2.png)
+*Fitur clipping window dengan objek di dalam window berubah hijau. Window merah dapat diseret.*
+
+#### Highlight Modul A
+- 🎨 **Preview Warna Real-time**: Indikator warna aktif di UI (kotak putih di kiri atas)
+- 🎯 **Feedback Pemilihan**: Objek yang dipilih ditandai dengan warna kuning
+- 🪟 **Clipping Interaktif**: Window merah yang dapat diseret dengan corner markers
+- 🔄 **Transformasi Halus**: Kontrol berkelanjutan dengan menahan tombol
+- ✨ **Visual Feedback**: Objek dalam window berubah hijau, luar window tetap warna asli
+- 📐 **Cohen-Sutherland**: Algoritma clipping garis profesional terimplementasi
+
+### Modul B - Visualisasi 3D Premium
+![Modul B - Kubus 3D](https://i.imgur.com/demo3.png)
+*Kubus 3D dengan Phong shading, setiap face memiliki warna berbeda dengan pencahayaan realistis*
+
+![Modul B - Piramida 3D](https://i.imgur.com/demo4.png)
+*Piramida 3D dengan material properties dan lighting yang sama. Panel informasi menampilkan status real-time*
+
+#### Highlight Modul B
+- 💡 **Pencahayaan Dinamis**: Sistem multi-light dengan ambient, diffuse, specular
 - 🎭 **Properti Material**: Refleksi permukaan dan kilau yang realistis
-- 📱 **Panel Informasi**: Tampilan status real-time
+- 📱 **Panel Informasi**: Status real-time di kiri atas (Object, Shading, Lighting, dll)
 - 🔄 **Animasi Halus**: Rotasi terinterpolasi untuk gerakan natural
 - 🎨 **Multiple Mode Render**: Beralih antara solid dan wireframe
+- ✨ **Phong Shading**: Model pencahayaan smooth untuk hasil visual premium
+- 🎮 **Kontrol Intuitif**: Mouse drag untuk rotasi, WASD untuk movement
 
 ## Nilai Edukasi
 
